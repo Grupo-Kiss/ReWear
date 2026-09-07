@@ -1,4 +1,4 @@
-const CACHE = "rewear-v1";
+const CACHE = "rewear-v2";
 const ASSETS = [
   "./",
   "./index.html",
