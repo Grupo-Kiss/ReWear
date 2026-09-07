@@ -1,4 +1,4 @@
-const CACHE = "rewear-v2";
+const CACHE = "rewear-v3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const ASSETS = [
   "./donar.html",
   "./solicitar.html",
   "./impacto.html",
+  "./nosotros.html",
   "./organizaciones.html",
   "./empresas.html",
   "./perfil.html",

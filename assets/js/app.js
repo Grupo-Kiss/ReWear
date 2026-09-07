@@ -24,7 +24,7 @@
     const hideBrand = el.dataset.brand === "false";
     const left = back
       ? `<a class="icon-btn" href="${back}" aria-label="Volver"><span class="material-symbols-outlined">arrow_back</span></a>`
-      : `<a class="icon-btn" href="${asset("design/index.html")}" aria-label="Guía de diseño"><span class="material-symbols-outlined">menu</span></a>`;
+      : `<a class="icon-btn" href="${asset("nosotros.html")}" aria-label="Nosotros"><span class="material-symbols-outlined">menu</span></a>`;
 
     el.innerHTML = `
       <div class="header-inner app-stage">
