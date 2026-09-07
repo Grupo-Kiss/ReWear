@@ -1,0 +1,84 @@
+:root {
+  --green-forest: #255235;
+  --green-primary: #3d6a4b;
+  --green-mid: #4a7c59;
+  --green-soft: #a1d2ac;
+  --green-mist: #bceec7;
+  --green-tint: #e4f1e7;
+  --green-wash: #eaf7ed;
+
+  --clay: #8d5b4c;
+  --clay-deep: #835244;
+  --clay-warm: #c48b71;
+  --clay-sand: #fdbdab;
+  --clay-blush: #ffdbd0;
+
+  --stone: #1e2923;
+  --ink: #131e18;
+  --ink-muted: #414942;
+  --outline: #717971;
+  --outline-soft: #c1c9bf;
+
+  --canvas: #f9f9f6;
+  --surface: #ffffff;
+  --surface-sage: #f0fdf3;
+  --surface-subtle: #f4f5f0;
+  --surface-high: #dfebe2;
+
+  --error: #ba1a1a;
+  --error-soft: #ffdad6;
+
+  --on-primary: #ffffff;
+  --on-dark: #e7f4ea;
+
+  --font: "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+
+  --fs-xl: 2rem;
+  --lh-xl: 2.5rem;
+  --fs-xl-m: 1.625rem;
+  --lh-xl-m: 2rem;
+  --fs-lg: 1.5rem;
+  --lh-lg: 1.875rem;
+  --fs-lg-m: 1.25rem;
+  --lh-lg-m: 1.625rem;
+  --fs-md: 1.125rem;
+  --lh-md: 1.5rem;
+  --fs-sm: 1rem;
+  --lh-sm: 1.375rem;
+  --fs-body: 1rem;
+  --lh-body: 1.5rem;
+  --fs-body-sm: 0.875rem;
+  --lh-body-sm: 1.25rem;
+  --fs-caption: 0.75rem;
+  --lh-caption: 1rem;
+  --fs-micro: 0.625rem;
+
+  --space-3xs: 0.125rem;
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.25rem;
+  --space-xl: 1.5rem;
+  --space-2xl: 2rem;
+  --space-3xl: 2.5rem;
+  --space-4xl: 3.5rem;
+
+  --gutter: 1rem;
+  --max-app: 480px;
+  --max-guide: 960px;
+  --header-h: 4rem;
+  --nav-h: 4.5rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-pill: 9999px;
+
+  --shadow-card: 0 2px 8px -2px rgba(30, 41, 35, 0.05), 0 1px 3px -1px rgba(30, 41, 35, 0.04);
+  --shadow-float: 0 -4px 16px -4px rgba(30, 41, 35, 0.06), 0 2px 6px -1px rgba(30, 41, 35, 0.03);
+  --border-soft: 1px solid rgba(30, 41, 35, 0.07);
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}

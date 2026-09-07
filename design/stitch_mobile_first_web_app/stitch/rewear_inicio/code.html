@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed": "#ffdbcc", "outline-variant": "#c1c9bf", "primary-container": "#3d6a4b", "on-error": "#ffffff", "surface-container-highest": "#d9e6dc", "secondary-fixed": "#ffdbd0", "inverse-primary": "#a1d2ac", "tertiary": "#6a3e29", "surface-container": "#e4f1e7", "primary-fixed": "#bceec7", "surface-dim": "#d0ddd4", "on-tertiary-fixed": "#331202", "error": "#ba1a1a", "on-background": "#131e18", "on-error-container": "#93000a", "error-container": "#ffdad6", "secondary-fixed-dim": "#f7b8a5", "inverse-on-surface": "#e7f4ea", "on-secondary": "#ffffff", "on-primary-container": "#b6e8c1", "on-tertiary-fixed-variant": "#673c27", "on-secondary-fixed": "#331107", "surface": "#f0fdf3", "surface-variant": "#d9e6dc", "surface-container-lowest": "#ffffff", "tertiary-fixed-dim": "#f7b89c", "on-secondary-container": "#794a3c", "on-surface": "#131e18", "outline": "#717971", "primary": "#255235", "surface-container-low": "#eaf7ed", "inverse-surface": "#28332d", "on-secondary-fixed-variant": "#673b2e", "on-primary-fixed-variant": "#234f33", "on-surface-variant": "#414942", "tertiary-container": "#85553e", "surface-bright": "#f0fdf3", "secondary": "#835244", "on-tertiary": "#ffffff", "on-primary-fixed": "#00210e", "secondary-container": "#fdbdab", "on-tertiary-container": "#ffd3c0", "background": "#f0fdf3", "on-primary": "#ffffff", "primary-fixed-dim": "#a1d2ac", "surface-tint": "#3b6849", "surface-container-high": "#dfebe2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "spacing-2xl": "2rem", "spacing-md": "1rem", "spacing-3xl": "2.5rem", "spacing-lg": "1.25rem", "gutter-mobile": "1rem", "spacing-4xl": "3.5rem", "spacing-2xs": "0.25rem", "margin-mobile": "1rem", "margin-tablet": "2rem", "gutter-tablet": "1.25rem", "spacing-sm": "0.75rem", "spacing-3xs": "0.125rem", "spacing-xs": "0.5rem", "spacing-xl": "1.5rem", "max-width-app": "480px" }, "fontFamily": { "headline-xl-mobile": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"] }, "fontSize": { "headline-xl-mobile": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-md": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["20px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-lg": ["24px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-sm": ["16px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "label-sm": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-xl": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(30,41,35,0.04)]"><div class="h-16 px-margin-mobile flex items-center justify-between max-w-[480px] mx-auto w-full"><div class="flex items-center gap-spacing-xs"><button aria-label="Menú principal" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container/60 transition-colors"><span class="material-symbols-outlined">menu</span></button><img alt="Rewear Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X90-omzT3Qk921S_yfRVMVNQTN-QFBEr8Y9pqZYW1AnOMV7sNfCvrhUWb4k-HtoLfCcYw5eMKc3VZQzXj_nxuaVXvY1UkHEcvOG_fM8EZR_qi4PNhMwoFXJLvH6-SAlf1MU7dZiy7J5XNFr5J5bTv0n-ObeUCmDTYUDmiEwfVRm-YUvhg2bjQIfVvwo4jorU__jW1k8UGMwHb2rDbZuxxrh6UxxO7LayOhAWe_um2lwU5Uip2xK8NGC58"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold ml-spacing-3xs">Rewear</span></div><div class="flex items-center gap-spacing-xs"><span class="hidden">Inicio</span><button aria-label="Notificaciones" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container/60 transition-colors"><span class="material-symbols-outlined">notifications</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col w-full max-w-[480px] mx-auto px-margin-mobile pt-16 pb-24 bg-surface"><div class="flex flex-col w-full gap-y-spacing-lg pb-6">
+<!-- 1. Hero Card -->
+<section class="relative overflow-hidden rounded-xl bg-surface-container p-spacing-lg shadow-sm">
+<div class="flex flex-col z-10 relative">
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface tracking-tight max-w-[240px]">
+        Tu ropa puede cambiar realidades
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-spacing-xs">
+        Doná, conectá, transformá.
+      </p>
+<div class="mt-spacing-lg">
+<button class="inline-flex items-center justify-center px-spacing-lg py-spacing-xs rounded-full bg-primary text-on-primary font-label-lg text-label-lg shadow-sm active:scale-[0.98] transition-transform" type="button">
+          Quiero donar ropa
+        </button>
+</div>
+</div>
+<!-- Realistic donation package illustration/photo visual -->
+<div class="absolute -right-2 bottom-0 w-36 h-36 flex items-end justify-end pointer-events-none">
+<img class="w-32 h-32 object-contain drop-shadow-md" data-alt="A warm organic cardboard box packed neatly with folded sustainable cotton and linen clothes in pastel beige, earth green and terracotta tones, with a clean heart stamped on the front of the box, soft ambient studio lighting, circular fashion aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAM7KFYyBiPUYQ_GnmG2OUv6kwOGXu2MjSbij7NfQw_ulfPlpnt5uTTeij9rZqZmN44Mepf8IbpZ20It5a8ZTbujaLnn4HyIIEygHHqsr4Hx_zxcKPzNZzmfEvnhQ80ma-rYOJy02l62745Mjuj4Ms24HydxCKIe_HIq8z66FOv2g_EOf2xpkGb5R7WyON525xmgahFhIfZqAJscPxebuxJcTXgDb9qWcv3kXxagMdRIEG8_T2InAc"/>
+</div>
+</section>
+<!-- 2. ¿Cómo querés donar? -->
+<section class="flex flex-col gap-y-spacing-xs">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight px-spacing-3xs">
+      ¿Cómo querés donar?
+    </h2>
+<div class="flex flex-col gap-y-spacing-xs mt-spacing-3xs">
+<!-- Option 1: Retiro a domicilio -->
+<a class="group flex items-center justify-between p-spacing-md rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container-low transition-colors" href="#">
+<div class="flex items-center gap-spacing-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Retiro a domicilio</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Pasamos a buscar tu donación sin costo.</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] ml-spacing-xs shrink-0 group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</a>
+<!-- Option 2: Punto de entrega -->
+<a class="group flex items-center justify-between p-spacing-md rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container-low transition-colors" href="#">
+<div class="flex items-center gap-spacing-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Punto de entrega</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Encontrá el punto de donación más cercano.</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] ml-spacing-xs shrink-0 group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</a>
+<!-- Option 3: Donar en una empresa aliada -->
+<a class="group flex items-center justify-between p-spacing-md rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container-low transition-colors" href="#">
+<div class="flex items-center gap-spacing-md min-w-0">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">domain</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Donar en una empresa aliada</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Acercá tu ropa a nuestras empresas aliadas.</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline text-[20px] ml-spacing-xs shrink-0 group-hover:translate-x-0.5 transition-transform">chevron_right</span>
+</a>
+</div>
+</section>
+<!-- 3. Organizaciones cerca tuyo -->
+<section class="flex flex-col gap-y-spacing-xs">
+<div class="flex items-center justify-between px-spacing-3xs">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">
+        Organizaciones cerca tuyo
+      </h2>
+<a class="font-label-md text-label-md text-primary hover:underline" href="#">
+        Ver todas
+      </a>
+</div>
+<!-- Map Preview Container -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col">
+<div class="relative w-full h-44 bg-surface-container-high overflow-hidden" data-location="San Isidro, Buenos Aires, Argentina" style="">
+<!-- Stylized Map Canvas with Points -->
+<div class="absolute inset-0 bg-[#e7efe9] opacity-90"></div>
+<svg class="absolute inset-0 w-full h-full opacity-35" preserveaspectratio="none" viewbox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M-10,40 Q120,60 210,30 T420,70" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="8"></path>
+<path d="M30,-20 Q100,80 180,120 T360,220" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="12"></path>
+<path d="M220,-10 Q260,110 390,140" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="6"></path>
+<path d="M-20,150 Q140,130 280,170 T420,180" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-width="7"></path>
+</svg>
+<!-- Dynamic Map Marker Pins -->
+<div class="absolute top-6 left-16 flex flex-col items-center animate-bounce duration-1000">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px]">checkroom</span>
+</div>
+<div class="w-1.5 h-1.5 rounded-full bg-on-surface/40 mt-0.5"></div>
+</div>
+<div class="absolute top-12 right-24 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]">favorite</span>
+</div>
+<div class="w-1 h-1 rounded-full bg-on-surface/30 mt-0.5"></div>
+</div>
+<div class="absolute top-20 left-1/2 -translate-x-1/2 flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-primary ring-4 ring-primary/20 text-on-primary flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[18px]">volunteer_activism</span>
+</div>
+<div class="w-2 h-1 rounded-full bg-on-surface/50 mt-0.5"></div>
+</div>
+<div class="absolute bottom-6 right-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]">home</span>
+</div>
+</div>
+<!-- Recenter Chip Overlay -->
+<div class="absolute top-2 right-2 bg-surface-container-lowest/90 backdrop-blur-sm px-spacing-xs py-spacing-3xs rounded-full shadow-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[14px]">my_location</span>
+<span class="font-label-sm text-label-sm text-on-surface">Zona norte</span>
+</div>
+</div>
+<!-- Selected Organization Details Card -->
+<div class="p-spacing-md flex items-center justify-between gap-spacing-sm bg-surface-container-lowest">
+<div class="flex items-center gap-spacing-sm min-w-0">
+<!-- Caritas Logo Representation -->
+<div class="w-11 h-11 rounded-lg bg-surface-container-low flex items-center justify-center shrink-0 overflow-hidden shadow-sm p-1.5">
+<div class="w-full h-full rounded bg-error-container text-on-error-container flex flex-col items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[18px] text-error">add</span>
+<span class="text-[7px] leading-tight tracking-tighter text-error font-extrabold uppercase">Cáritas</span>
+</div>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-spacing-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Cáritas San Isidro</span>
+</div>
+<div class="flex items-center gap-spacing-3xs mt-spacing-3xs">
+<span class="material-symbols-outlined text-primary text-[14px]">near_me</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">A 1,2 km de vos</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate mt-spacing-3xs">
+              Reciben ropa para niños, mujeres y hombres.
+            </p>
+</div>
+</div>
+<a aria-label="Ver detalles de Cáritas San Isidro" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shrink-0" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 4. Nuestro impacto -->
+<section class="flex flex-col gap-y-spacing-xs">
+<div class="px-spacing-3xs">
+<h2 class="font-headline-md text-headline-md text-on-surface tracking-tight">
+        Nuestro impacto
+      </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Gracias a vos y a nuestras empresas aliadas
+      </p>
+</div>
+<div class="p-spacing-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-y-spacing-md">
+<!-- 3 Metrics Grid -->
+<div class="grid grid-cols-3 gap-spacing-xs items-stretch text-center">
+<!-- Metric 1: Prendas donadas -->
+<div class="flex flex-col items-center p-spacing-xs rounded-lg bg-surface-container-low">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-spacing-xs">
+<span class="material-symbols-outlined text-[18px]">checkroom</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">125.430</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-spacing-3xs leading-tight">prendas donadas</span>
+</div>
+<!-- Metric 2: Personas beneficiadas -->
+<div class="flex flex-col items-center p-spacing-xs rounded-lg bg-surface-container-low">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-spacing-xs">
+<span class="material-symbols-outlined text-[18px]">group</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">87.210</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-spacing-3xs leading-tight">personas alcanzadas</span>
+</div>
+<!-- Metric 3: CO2 evitado -->
+<div class="flex flex-col items-center p-spacing-xs rounded-lg bg-surface-container-low">
+<div class="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-spacing-xs">
+<span class="material-symbols-outlined text-[18px]">eco</span>
+</div>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">63,2 ton</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-spacing-3xs leading-tight">de CO₂ evitado</span>
+</div>
+</div>
+<!-- Action Link -->
+<div class="pt-spacing-xs border-t-0 flex items-center justify-center">
+<a class="inline-flex items-center gap-spacing-3xs font-label-md text-label-md text-primary hover:text-primary-container transition-colors" href="#">
+<span>Conocé más sobre nuestro impacto</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Community Banner Accent -->
+<section class="rounded-xl overflow-hidden bg-surface-container-high p-spacing-md flex items-center gap-spacing-md">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">handshake</span>
+</div>
+<div class="flex flex-col min-w-0 flex-1">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">¿Tenés una empresa?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Sumate como punto recolector o logística.</span>
+</div>
+<a class="font-label-sm text-label-sm text-primary font-bold hover:underline shrink-0" href="#">Sumarse</a>
+</section>
+</div>
+<script>
+  // Simple interactive feedback on donation cards
+  document.querySelectorAll('a[href="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(30,41,35,0.06)]" data-active-classes="text-primary-container font-semibold"><div class="h-16 px-spacing-xs flex items-center justify-around max-w-[480px] mx-auto w-full"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] transition-colors text-primary-container font-semibold" data-path="inicio" href="#"><span class="material-symbols-outlined text-[24px]">home</span><span class="font-label-sm text-label-sm mt-spacing-3xs">Inicio</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="donar" href="#"><span class="material-symbols-outlined text-[24px]">volunteer_activism</span><span class="font-label-sm text-label-sm mt-spacing-3xs">Donar</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="organizaciones" href="#"><span class="material-symbols-outlined text-[24px]">diversity_3</span><span class="font-label-sm text-label-sm mt-spacing-3xs">Organizaciones</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="empresas" href="#"><span class="material-symbols-outlined text-[24px]">handshake</span><span class="font-label-sm text-label-sm mt-spacing-3xs">Empresas</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] text-on-surface-variant hover:text-on-surface transition-colors" data-path="mi-perfil" href="#"><span class="material-symbols-outlined text-[24px]">account_circle</span><span class="font-label-sm text-label-sm mt-spacing-3xs">Mi perfil</span></a></div></nav></body></html>

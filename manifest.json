@@ -1,0 +1,32 @@
+{
+  "name": "Rewear — moda circular",
+  "short_name": "Rewear",
+  "description": "Dale una segunda vida a la moda. Conectamos empresas, organizaciones y personas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f0fdf3",
+  "theme_color": "#3d6a4b",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

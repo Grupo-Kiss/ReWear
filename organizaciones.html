@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3d6a4b">
+  <meta name="description" content="Organizaciones sociales y puntos de entrega Rewear.">
+  <title>Organizaciones — Rewear</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body data-page="organizaciones">
+  <div class="app-shell">
+    <header class="header" id="app-header" data-title="Organizaciones" data-back="home.html"></header>
+    <main class="main app-stage stack">
+      <div class="page-title-row">
+        <h1 class="headline-lg">Puntos de entrega</h1>
+        <span class="tag">CABA y alrededores</span>
+      </div>
+      <div class="search">
+        <label class="search-field">
+          <span class="sr-only">Buscar organización</span>
+          <span class="material-symbols-outlined">search</span>
+          <input id="request-search" type="search" placeholder="Buscar organización...">
+        </label>
+      </div>
+      <div class="chip-row" data-chip-group="orgs">
+        <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">Cerca tuyo</button>
+        <button class="chip" type="button" data-filter="all" aria-pressed="false">Todas</button>
+        <button class="chip" type="button" data-filter="urgente" aria-pressed="false">Urgentes</button>
+      </div>
+      <section class="stack" id="request-list" style="gap: var(--space-sm);">
+        <article class="card row-card" data-item data-tags="cerca">
+          <span class="row-left">
+            <span class="icon-tile"><span class="material-symbols-outlined">add</span></span>
+            <span>
+              <strong class="headline-sm">Cáritas Argentina</strong>
+              <span class="tag">A 1,2 km</span>
+              <span class="caption" style="display:block;">Recibe abrigo y calzado</span>
+            </span>
+          </span>
+          <button class="icon-btn" type="button" data-fav aria-label="Favorita" aria-pressed="false"><span class="material-symbols-outlined">favorite</span></button>
+        </article>
+        <article class="card row-card" data-item data-tags="cerca">
+          <span class="row-left">
+            <span class="icon-tile icon-tile--clay"><span class="material-symbols-outlined">volunteer_activism</span></span>
+            <span>
+              <strong class="headline-sm">Fundación Sí</strong>
+              <span class="tag">A 2,4 km</span>
+              <span class="caption" style="display:block;">Inclusión social y educativa</span>
+            </span>
+          </span>
+          <button class="icon-btn" type="button" data-fav aria-label="Favorita" aria-pressed="false"><span class="material-symbols-outlined">favorite</span></button>
+        </article>
+        <article class="card row-card" data-item data-tags="urgente">
+          <span class="row-left">
+            <span class="icon-tile"><span class="material-symbols-outlined">home_work</span></span>
+            <span>
+              <strong class="headline-sm">Red Solidaria</strong>
+              <span class="tag tag--clay">Campaña Frío Cero</span>
+              <span class="caption" style="display:block;">Ropa y alimentos para familias</span>
+            </span>
+          </span>
+          <button class="icon-btn" type="button" data-fav aria-label="Favorita" aria-pressed="false"><span class="material-symbols-outlined">favorite</span></button>
+        </article>
+        <article class="card row-card" data-item data-tags="cerca">
+          <span class="row-left">
+            <span class="icon-tile"><span class="material-symbols-outlined">front_hand</span></span>
+            <span>
+              <strong class="headline-sm">Manos Abiertas</strong>
+              <span class="tag">A 5,0 km</span>
+              <span class="caption" style="display:block;">Niñez y adolescencia</span>
+            </span>
+          </span>
+          <button class="icon-btn" type="button" data-fav aria-label="Favorita" aria-pressed="false"><span class="material-symbols-outlined">favorite</span></button>
+        </article>
+      </section>
+      <a class="card row-card" href="impacto.html">
+        <span class="row-left">
+          <span class="icon-tile icon-tile--round"><span class="material-symbols-outlined">map</span></span>
+          <span>
+            <strong class="headline-sm">Ver mapa interactivo</strong>
+            <span class="caption" style="display:block;">Explorá puntos de entrega cercanos</span>
+          </span>
+        </span>
+        <span class="material-symbols-outlined" style="color: var(--green-primary);">chevron_right</span>
+      </a>
+    </main>
+    <nav class="bottom-nav" id="app-nav"></nav>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

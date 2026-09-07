@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#3d6a4b">
+  <meta name="description" content="Doná ropa en tres pasos: fotos, entrega y confirmación.">
+  <title>Donar — Rewear</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body data-page="donar">
+  <div class="app-shell">
+    <header class="header" id="app-header" data-title="Donar" data-back="home.html"></header>
+    <main class="main app-stage">
+      <form id="donate-flow" class="stack" onsubmit="return false;">
+        <div>
+          <p class="label" data-step-label>Paso 1 de 3</p>
+          <div class="progress" style="margin-top: var(--space-xs);" aria-hidden="true">
+            <span class="progress-step is-current"></span>
+            <span class="progress-step"></span>
+            <span class="progress-step"></span>
+          </div>
+        </div>
+
+        <section class="step-panel stack">
+          <div>
+            <h1 class="headline-lg">Contanos qué vas a donar</h1>
+            <p class="body" style="margin-top: var(--space-xs);">Subí fotos claras. La ropa limpia llega más rápido a quien la necesita.</p>
+          </div>
+          <div class="upload-grid">
+            <button class="upload-tile" type="button" data-upload>
+              <span class="material-symbols-outlined">add_a_photo</span>
+              <span class="caption">Foto 1</span>
+            </button>
+            <button class="upload-tile" type="button" data-upload>
+              <span class="material-symbols-outlined">add_a_photo</span>
+              <span class="caption">Foto 2</span>
+            </button>
+            <button class="upload-tile" type="button" data-upload>
+              <span class="material-symbols-outlined">add_a_photo</span>
+              <span class="caption">Foto 3</span>
+            </button>
+          </div>
+          <label class="field">
+            <span>Tipo de prenda</span>
+            <select>
+              <option>Abrigo</option>
+              <option>Remeras y buzos</option>
+              <option>Pantalones</option>
+              <option>Calzado</option>
+              <option>Niñez</option>
+              <option>Mixto</option>
+            </select>
+          </label>
+          <div class="grid-2">
+            <label class="field">
+              <span>Talle</span>
+              <select>
+                <option>Único / varios</option>
+                <option>XS–S</option>
+                <option>M–L</option>
+                <option>XL–XXL</option>
+                <option>Niños</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Cantidad</span>
+              <input type="number" min="1" value="6">
+            </label>
+          </div>
+          <label class="field">
+            <span>Temporada</span>
+            <select>
+              <option>Otoño / invierno</option>
+              <option>Primavera / verano</option>
+              <option>Todo el año</option>
+            </select>
+          </label>
+          <button class="btn btn--primary btn--block" type="button" data-next>Continuar</button>
+        </section>
+
+        <section class="step-panel stack" hidden>
+          <div>
+            <h1 class="headline-lg">¿Cómo la entregamos?</h1>
+            <p class="body" style="margin-top: var(--space-xs);">Elegí la opción más cómoda. Las tres son gratuitas.</p>
+          </div>
+          <button class="card choice is-selected" type="button" data-choice>
+            <span class="icon-tile"><span class="material-symbols-outlined">local_shipping</span></span>
+            <span>
+              <strong class="headline-sm">Retiro a domicilio</strong>
+              <span class="caption" style="display:block;">Pasamos el viernes de 9 a 12 hs.</span>
+            </span>
+          </button>
+          <button class="card choice" type="button" data-choice>
+            <span class="icon-tile"><span class="material-symbols-outlined">location_on</span></span>
+            <span>
+              <strong class="headline-sm">Punto de entrega</strong>
+              <span class="caption" style="display:block;">Cáritas San Isidro · a 1,2 km</span>
+            </span>
+          </button>
+          <button class="card choice" type="button" data-choice>
+            <span class="icon-tile"><span class="material-symbols-outlined">storefront</span></span>
+            <span>
+              <strong class="headline-sm">Empresa aliada</strong>
+              <span class="caption" style="display:block;">Zara Unicenter · recepción en tienda</span>
+            </span>
+          </button>
+          <label class="field">
+            <span>Dirección o sucursal</span>
+            <input type="text" value="Av. del Libertador 16200, San Isidro">
+          </label>
+          <div class="comp-row">
+            <button class="btn btn--secondary btn--block" type="button" data-prev>Volver</button>
+            <button class="btn btn--primary btn--block" type="button" data-next>Confirmar donación</button>
+          </div>
+        </section>
+
+        <section class="step-panel stack" hidden>
+          <div style="text-align:center; padding-top: var(--space-sm);">
+            <div class="success-mark" aria-hidden="true">
+              <span class="material-symbols-outlined icon-fill">favorite</span>
+            </div>
+            <h1 class="headline-lg">¡Gracias por tu donación!</h1>
+            <p class="body" style="margin-top: var(--space-xs);">Tu ropa ya está en camino a una segunda vida. Eso se siente bien, y se nota.</p>
+          </div>
+          <section class="card card--pad stack" style="gap: var(--space-sm);">
+            <h2 class="headline-sm">Próximos pasos</h2>
+            <div class="row-card" style="padding: 0;">
+              <span class="row-left">
+                <span class="icon-tile icon-tile--round"><span class="material-symbols-outlined">calendar_today</span></span>
+                <span>
+                  <strong class="headline-sm">Retiro programado</strong>
+                  <span class="caption" style="display:block;">Viernes 24/05 · 9:00 a 12:00 hs</span>
+                </span>
+              </span>
+            </div>
+            <div class="row-card" style="padding: 0;">
+              <span class="row-left">
+                <span class="icon-tile icon-tile--round icon-tile--clay"><span class="material-symbols-outlined">checkroom</span></span>
+                <span>
+                  <strong class="headline-sm">Prepará tus prendas</strong>
+                  <span class="caption" style="display:block;">Limpias y en bolsas cerradas.</span>
+                </span>
+              </span>
+            </div>
+          </section>
+          <a class="btn btn--primary btn--block" href="impacto.html">Ver el impacto</a>
+          <button class="btn btn--ghost btn--block" type="button" data-toast="Enlace de impacto copiado">Compartir impacto</button>
+        </section>
+      </form>
+    </main>
+    <nav class="bottom-nav" id="app-nav"></nav>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
